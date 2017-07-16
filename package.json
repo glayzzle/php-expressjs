@@ -1,0 +1,31 @@
+{
+  "name": "php-expressjs",
+  "version": "1.0.0",
+  "description": "Run ExpressJS with PHP",
+  "main": "dist/app.js",
+  "scripts": {
+    "build": "gulp",
+    "prepublish": "gulp",
+    "start": "node dist/app.js",
+    "debug": "node-debug dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glayzzle/php-expressjs.git"
+  },
+  "author": "Ioan CHIRIAC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/glayzzle/php-expressjs/issues"
+  },
+  "homepage": "https://github.com/glayzzle/php-expressjs#readme",
+  "devDependencies": {
+    "babel-preset-php": "^1.0.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-sourcemaps": "^2.6.0"
+  },
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
